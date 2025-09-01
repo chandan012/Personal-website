@@ -17,6 +17,9 @@ html {
 .purple {
   color: var(--imp-text-color) !important;
 }
+#error{
+  display: none;
+}
 
 /* --------- */
 /*  Preloader */
