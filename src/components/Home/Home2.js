@@ -4,6 +4,8 @@ import myImg from '../../Assets/avatar.svg'
 import Tilt from 'react-parallax-tilt'
 import {AiFillGithub, AiOutlineTwitter, AiFillInstagram} from 'react-icons/ai'
 import {FaLinkedinIn} from 'react-icons/fa'
+import { SiGmail } from 'react-icons/si'
+
 
 function Home2() {
   return (
@@ -81,6 +83,18 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
+              <li className="social-icons">
+                <a
+                  href="mailto:chandanzope21@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <SiGmail />
+                </a>
+              </li>
+
+              
             </ul>
           </Col>
         </Row>
